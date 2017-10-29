@@ -1,8 +1,8 @@
-#Notes
+# Notes
 
 Just some notes related to the prototyping stage of the project.
 
-##USB mass storage class example jumper connections (MSP-EXP4305529LP LaunchPad board):
+## USB mass storage class example jumper connections (MSP-EXP4305529LP LaunchPad board):
 
 | micro-SD pin | LaunchPad pin |
 | ------------ | ------------- |

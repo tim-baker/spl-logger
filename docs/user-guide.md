@@ -1,8 +1,8 @@
-#Documentation
+# Documentation
 
-##User guide
+## User guide
 
-###Pushbuttons, switch and jumpers
+### Pushbuttons, switch and jumpers
 
 The following table describes intended functions for user input methods.
 
@@ -15,7 +15,7 @@ The following table describes intended functions for user input methods.
 | J1         | Not used                                                        |
 | J2         | Not used                                                        |
 
-###Status LEDs
+### Status LEDs
 
 The following tables describe intended meanings for device status.
 
