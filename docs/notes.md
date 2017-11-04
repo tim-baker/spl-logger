@@ -2,7 +2,7 @@
 
 Just some notes related to the prototyping stage of the project.
 
-## USB mass storage class example jumper connections (MSP-EXP4305529LP LaunchPad board):
+## USB mass storage class example jumper connections:
 
 | micro-SD pin | LaunchPad pin |
 | ------------ | ------------- |
@@ -11,5 +11,5 @@ Just some notes related to the prototyping stage of the project.
 | DO           | P4.2          |
 | DI           | P4.1          |
 
--Break-out board: https://www.adafruit.com/product/254
--LaunchPad board: http://www.ti.com/tool/MSP-EXP430F5529LP
+- Break-out board: https://www.adafruit.com/product/254
+- LaunchPad board: http://www.ti.com/tool/MSP-EXP430F5529LP
