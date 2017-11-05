@@ -15,6 +15,8 @@
 
 #include "main.h"
 
+void RTC_Setup(Calendar * time);
+
 // -----------------------------------------------------------------------------
 // RTC_SetupCalendar()
 // 

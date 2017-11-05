@@ -12,36 +12,42 @@ C_SRCS += \
 ../Analog.c \
 ../GPIO.c \
 ../RTC.c \
+../hal.c \
 ../main.c 
 
 C_DEPS += \
 ./Analog.d \
 ./GPIO.d \
 ./RTC.d \
+./hal.d \
 ./main.d 
 
 OBJS += \
 ./Analog.obj \
 ./GPIO.obj \
 ./RTC.obj \
+./hal.obj \
 ./main.obj 
 
 OBJS__QUOTED += \
 "Analog.obj" \
 "GPIO.obj" \
 "RTC.obj" \
+"hal.obj" \
 "main.obj" 
 
 C_DEPS__QUOTED += \
 "Analog.d" \
 "GPIO.d" \
 "RTC.d" \
+"hal.d" \
 "main.d" 
 
 C_SRCS__QUOTED += \
 "../Analog.c" \
 "../GPIO.c" \
 "../RTC.c" \
+"../hal.c" \
 "../main.c" 
 
 

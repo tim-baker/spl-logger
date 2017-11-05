@@ -12,6 +12,10 @@
 #ifndef GPIO_H
 #define GPIO_H
 
+#include "main.h"
 
+void GPIO_initInputs(void);
+void GPIO_initOutputs(void);
+uint8_t GPIO_getSampleInterval(void);
 
 #endif // GPIO_H

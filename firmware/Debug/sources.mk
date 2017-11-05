@@ -112,5 +112,14 @@ PDE_DEPS__QUOTED :=
 # Every subdirectory with source files must be described here
 SUBDIRS := \
 . \
+USB_API/USB_CDC_API \
+USB_API/USB_Common \
+USB_API/USB_HID_API \
+USB_API/USB_MSC_API \
+USB_API/USB_PHDC_API \
+USB_API \
+USB_app/FatFs \
+USB_app \
+USB_config \
 driverlib/MSP430F5xx_6xx \
 

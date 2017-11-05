@@ -16,7 +16,7 @@
 #include "main.h"
 
 // -----------------------------------------------------------------------------
-// Analog_SetupADC()
+// Analog_Setup()
 // 
 // Sets up ADC12
 // 
@@ -26,6 +26,19 @@
 //   none
 // Conditions:
 //   none
-void Analog_SetupADC(void);
+void Analog_Setup(void);
+
+// -----------------------------------------------------------------------------
+// Analog_ConvertADCtoSPLdB()
+// 
+// Converts 12-bit ADC value SPL approximation
+// 
+// Input:
+//   none
+// Output:
+//   return value is SPL in decibels
+// Conditions:
+//   none
+uint8_t Analog_ConvertADCtoSPLdB(uint16_t value);
 
 #endif // ANALOG_H

@@ -15,4 +15,6 @@
 #include <msp430f5529.h>
 #include "driverlib.h"
 
+#define MCLK_FREQUENCY  25000000
+
 #endif // MAIN_H
