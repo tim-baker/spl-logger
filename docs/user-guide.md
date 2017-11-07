@@ -8,7 +8,7 @@ The following table describes intended functions for user input methods.
 
 | Pushbutton   | Function                                                                 |
 | :----------: | :----------------------------------------------------------------------- |
-| `S1`         | Export data via serial                                                   |
+| `S1`         | Hold during boot to enter SD card reader mode                            |
 | `S2`         | Trigger save manual SPL sample                                           |
 | `S3`         | Set sample frequecy: OFF,OFF=1min; OFF,ON=2min; ON,OFF=5min; ON,ON=10min |
 | `S4`         | Reset the microcontroller                                                |
