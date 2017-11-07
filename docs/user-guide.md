@@ -26,12 +26,12 @@ The following tables describe intended meanings for device status.
 | `FLASH` (1 Hz)       | Device heartbeat |
 | `FLASH` (fast)       | n/a              |
 
-| LED2 status (orange) | Meaning                     |
-| :------------------: | --------------------------- |
-| `ON`                 | Peak SPL threshold detect   |
-| `OFF`                | n/a                         |
-| `FLASH` (slow)       | n/a                         |
-| `FLASH` (fast)       | Save SPL sample in progress |
+| LED2 status (orange) | Meaning                                 |
+| :------------------: | --------------------------------------- |
+| `ON`                 | Peak SPL threshold detected last sample |
+| `OFF`                | n/a                                     |
+| `FLASH` (slow)       | n/a                                     |
+| `FLASH` (fast)       | n/a                                     |
 
 | LED3 status (green) | Meaning                       |
 | :-----------------: | ----------------------------- |
