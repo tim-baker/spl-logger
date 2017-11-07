@@ -80,7 +80,7 @@ void Analog_Setup(void)
 // -----------------------------------------------------------------------------
 // Analog_ConvertADCtoSPLdB()
 // 
-// Converts 12-bit ADC value SPL approximation
+// Converts 12-bit ADC value to SPL approximation
 // 
 // Input:
 //   none

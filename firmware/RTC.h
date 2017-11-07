@@ -15,12 +15,10 @@
 
 #include "main.h"
 
-void RTC_Setup(Calendar * time);
-
 // -----------------------------------------------------------------------------
-// RTC_SetupCalendar()
+// RTC_Setup()
 // 
-// Sets up RTC_A with calendar as 2017-11-31T12:00:00+00:00
+// Sets up RTC_A and sets calendar to input argument
 // 
 // Input:
 //   time is a Calendar type to be initialized with values
@@ -28,6 +26,6 @@ void RTC_Setup(Calendar * time);
 //   none
 // Conditions:
 //   none
-void RTC_SetupCalendar(Calendar * const time);
+void RTC_Setup(Calendar * time);
 
 #endif // RTC_H

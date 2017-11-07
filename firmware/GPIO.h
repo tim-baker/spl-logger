@@ -14,8 +14,43 @@
 
 #include "main.h"
 
-void GPIO_initInputs(void);
+// -----------------------------------------------------------------------------
+// GPIO_initOutputs()
+// 
+// Initializes outputs on SPL logger board
+// 
+// Input:
+//   none
+// Output:
+//   none
+// Conditions:
+//   none
 void GPIO_initOutputs(void);
+
+// -----------------------------------------------------------------------------
+// GPIO_initInputs()
+// 
+// Initializes inputs on SPL logger board
+// 
+// Input:
+//   none
+// Output:
+//   none
+// Conditions:
+//   none
+void GPIO_initInputs(void);
+
+// -----------------------------------------------------------------------------
+// GPIO_getSampleInterval()
+// 
+// Gets position of DIP switch and returns value
+// 
+// Input:
+//   none
+// Output:
+//   returns number of minutes between samples
+// Conditions:
+//   none
 uint8_t GPIO_getSampleInterval(void);
 
 #endif // GPIO_H

@@ -6,14 +6,14 @@
 
 The following table describes intended functions for user input methods.
 
-| Pushbutton   | Function                                                        |
-| :----------: | :-------------------------------------------------------------- |
-| `S1`         | Export data via serial                                          |
-| `S2`         | Trigger save manual SPL sample                                  |
-| `S3`         | Set sample frequecy: 00b = 5min, 01b = 1min, 10b=30s, 11b = 10s |
-| `S4`         | Reset the microcontroller                                       |
-| `J1`         | Not used                                                        |
-| `J2`         | Not used                                                        |
+| Pushbutton   | Function                                                                 |
+| :----------: | :----------------------------------------------------------------------- |
+| `S1`         | Export data via serial                                                   |
+| `S2`         | Trigger save manual SPL sample                                           |
+| `S3`         | Set sample frequecy: OFF,OFF=1min; OFF,ON=2min; ON,OFF=5min; ON,ON=10min |
+| `S4`         | Reset the microcontroller                                                |
+| `J1`         | Not used                                                                 |
+| `J2`         | Not used                                                                 |
 
 ### Status LEDs
 
@@ -23,26 +23,27 @@ The following tables describe intended meanings for device status.
 | :------------------: | ---------------- |
 | `ON`                 | Device suspended |
 | `OFF`                | Device suspended |
-| `FLASH` (slow)       | Device heartbeat |
+| `FLASH` (1 Hz)       | Device heartbeat |
 | `FLASH` (fast)       | n/a              |
 
 | LED2 status (orange) | Meaning                     |
 | :------------------: | --------------------------- |
 | `ON`                 | Peak SPL threshold detect   |
-| `OFF`                |                             |
-| `FLASH` (slow)       |                             |
+| `OFF`                | n/a                         |
+| `FLASH` (slow)       | n/a                         |
 | `FLASH` (fast)       | Save SPL sample in progress |
 
 | LED3 status (green) | Meaning                       |
 | :-----------------: | ----------------------------- |
-| `ON`                | USB data transfer in progress |
-| `OFF`               |                               |
-| `FLASH` (slow)      |                               |
-| `FLASH` (fast)      |                               |
+| `TOGGLE`            | Save SPL sample occurred      |
+| `ON`                | n/a                           |
+| `OFF`               | n/a                           |
+| `FLASH` (slow)      | n/a                           |
+| `FLASH` (fast)      | n/a                           |
 
 | LED4 status (red) | Meaning                   |
 | :---------------: | ------------------------- |
 | `ON`              | No micro-SD card detected |
-| `OFF`             |                           |
-| `FLASH` (slow)    |                           |
-| `FLASH` (fast)    |                           |
+| `OFF`             | micro-SD card detected    |
+| `FLASH` (slow)    | n/a                       |
+| `FLASH` (fast)    | n/a                       |
